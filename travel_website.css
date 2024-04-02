@@ -1,0 +1,171 @@
+* {
+    font-family: Mulish;
+}
+
+/* shared item */
+.common-title {
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+.orange {
+    color: #FF5400;
+}
+
+/* header section */
+header {
+    margin: 52px 135px 100px 135px;
+}
+
+.title-img {
+    max-width: 48px;
+    max-height: 56.008px;
+}
+
+.title-img-container {
+    display: flex;
+    gap: 16.63px;
+    align-items: center;
+}
+
+.nav-item {
+    text-decoration: none;
+    margin-left: 44px;
+    color: #424247;
+    font-size: 1.125rem;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* banner-part */
+.banner {
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat, no-repeat;
+    border-radius: 16px;
+    /* width: 1170px; */
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-title {
+    padding-top: 106px;
+    margin-bottom: 24px;
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.banner-description {
+    color: #FFF;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+/* input in header */
+form {
+    padding: 16px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    background-repeat: no-repeat;
+    display: flex;
+    gap: 24px;
+    width: 75%;
+    margin-left: calc((100% - 75%)/2);
+}
+
+.input-text,
+select {
+    border-radius: 8px;
+    background: #FFF;
+    width: 200px;
+    color: rgba(19, 19, 24, 0.50);
+    padding: 16px;
+    border: none;
+    margin-right: 24px;
+}
+
+
+
+.btn-primary {
+    width: 200px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-weight: 700;
+    padding: 16px;
+    border: none;
+}
+
+main {
+    margin-left: 135px;
+    margin-right: 135px;
+}
+
+/* first-part css */
+.first-part {
+    display: flex;
+    gap: 53px;
+}
+
+.first-part-des {
+    color: rgba(19, 19, 24, 0.70);
+    line-height: 26px;
+}
+
+.btn-sec{
+    margin-top: 32px;
+    border-radius: 8px;
+background: #FF5400;
+border: 0;
+color: #FFF;
+font-size: 1.25rem;
+font-weight: 800;
+padding: 14px 35px;
+}
+@media screen and (max-width: 576px) {
+    header {
+        margin: 20px auto;
+    }
+
+    .navigation {
+        flex-direction: column;
+    }
+
+    .banner {
+        background-position: center;
+    }
+
+    .banner-title {
+        padding-top: 24px;
+        font-size: 1.375rem;
+        margin-bottom: 12px;
+    }
+
+    .banner-description {
+        font-size: 0.875rem;
+        margin: 0 15px 20px 15px;
+    }
+
+    form {
+        flex-direction: column;
+        gap: 16px;
+        margin-left: 24px;
+    }
+
+    select,
+    .btn-primary {
+        width: 255px;
+    }
+
+    input {
+        width: 255px;
+    }
+}
