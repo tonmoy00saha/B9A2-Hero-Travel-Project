@@ -47,11 +47,14 @@ header {
     background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('Images/Group\ 13\ \(1\)\ \(1\).png');
     background-repeat: no-repeat, no-repeat;
     border-radius: 16px;
+    background-position: center;
+    background-size: cover;
     /* width: 1170px; */
     width: 100%;
     height: 500px;
     align-items: center;
     text-align: center;
+
 }
 
 .banner-title {
@@ -70,7 +73,7 @@ header {
 }
 
 /* input in header */
-form {
+.banner form {
     padding: 16px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
@@ -79,6 +82,7 @@ form {
     gap: 24px;
     width: 75%;
     margin-left: calc((100% - 75%)/2);
+    justify-content: center;
 }
 
 .input-text,
@@ -113,6 +117,8 @@ main {
 .first-part {
     display: flex;
     gap: 53px;
+    margin-bottom: 100px;
+    justify-content: center;
 }
 
 .first-part-des {
@@ -120,15 +126,397 @@ main {
     line-height: 26px;
 }
 
-.btn-sec{
+.btn-sec {
     margin-top: 32px;
     border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 800;
+    padding: 14px 35px;
+}
+
+/* destination css */
+.destination {
+    margin-bottom: 100px;
+}
+
+.destination-text {
+    text-align: center;
+}
+
+.destination-des {
+    color: rgba(19, 19, 24, 0.70);
+    line-height: 26px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.country-name {
+    color: #FFF;
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+
+.maldives {
+    /* padding: 132px 226px; */
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 5.png');
+    background-repeat: no-repeat, no-repeat;
+    border-radius: 16px;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    padding: 132px 0;
+}
+
+.indonesia {
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 8.png');
+    background-repeat: no-repeat, no-repeat;
+    border-radius: 16px;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    padding: 132px 0;
+}
+
+.srilanka {
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 6.png');
+    background-repeat: no-repeat, no-repeat;
+    border-radius: 16px;
+    background-position: center;
+    background-size: cover;
+    width: 65%;
+    text-align: center;
+    padding: 125px 0;
+}
+
+.north {
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 7.png');
+    background-repeat: no-repeat, no-repeat;
+    border-radius: 16px;
+    background-position: center;
+    background-size: cover;
+    width: 82%;
+    text-align: center;
+    padding: 125px 0;
+}
+
+.kashmir {
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 9.png');
+    background-repeat: no-repeat, no-repeat;
+    border-radius: 16px;
+    background-position: center;
+    background-size: cover;
+    width: 47%;
+    text-align: center;
+    padding: 125px 0;
+}
+
+.bangladesh {
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 11.png');
+    background-repeat: no-repeat, no-repeat;
+    border-radius: 16px;
+    background-position: center;
+    background-size: cover;
+    width: 82%;
+    text-align: center;
+    padding: 132px 0;
+}
+
+.bandarban {
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 10.png');
+    background-repeat: no-repeat, no-repeat;
+    border-radius: 16px;
+    background-position: center;
+    background-size: cover;
+    width: 117%;
+    text-align: center;
+    padding: 125px 0;
+}
+
+.mal-indo,
+.sri-nor-kash,
+.bang-band {
+    display: flex;
+    gap: 24px;
+}
+
+.destination-picture {
+    display: grid;
+    gap: 24px;
+}
+
+/* choose part*/
+.choose {
+    text-align: center;
+}
+
+/* hotel-service-guarantee-container */
+.hotel-service-guarantee-container h3 {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.hotel-service-guarantee-container p {
+    color: #5A5A5D;
+    line-height: 26px;
+}
+
+.hotel {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    background-position: center;
+    padding: 32px;
+    max-width: 50%;
+}
+
+.service {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    background-position: center;
+    padding: 32px;
+    max-width: 50%;
+}
+
+.guarantee {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    background-position: center;
+    padding: 32px;
+    max-width: 50%;
+    /* margin-left: calc((100% - 45%)/2); */
+}
+
+.hotel-service {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+
+}
+
+.hotel-service-guarantee-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+/* Discount */
+
+.discount-img {
+    background-image: url('Images/Group\ 40.png');
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    background-position: center;
+    background-size: cover;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    padding: 55px;
+    margin-bottom: 24px;
+}
+
+.discount-img-details {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    background-position: right;
+    padding: 52px 50px;
+    max-width: 579px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.discount-img-1 {
+    background-image: url('Images/Group\ 40.png');
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    background-position: center;
+    background-size: cover;
+    padding: 55px;
+    margin-bottom: 24px;
+}
+
+.discount-img-details-1 {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    background-position: right;
+    padding: 52px 50px;
+    max-width: 579px;
+}
+
+.img-duration p {
+    color: #5A5A5D;
+}
+
+.img-duration {
+    display: flex;
+    align-items: center;
+}
+
+.discount-img-duration {
+    display: flex;
+    gap: 24px;
+}
+
+.discount-title {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.discount-des{
+    color: #5A5A5D;
+line-height: 26px;
+}
+.price{
+    color: #FF5400;
+font-size: 1.25rem;
+font-weight: 800;
+margin-bottom: 0;
+}
+.btn-three{
+    border-radius: 8px;
 background: #FF5400;
+padding: 14px 24px;
 border: 0;
+    color: #FFF;
+font-size: 1.25rem;
+font-weight: 800;
+margin-top: 24px;
+}
+.btn-four{
+   text-align: center;
+}
+.perfect-place-text li{
+    color: #131318;
+font-weight: 700;
+line-height: 26px;
+
+}
+
+.perfect-place-img{
+    border-radius: 16px;
+    background-image: url('Images/Group\ 40089.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #FFF;
+   text-align: center;
+font-size: 1.5rem;
+font-weight: 700;
+line-height: 36px;
+padding: 176px 0;
+width: 610px;
+}
+.perfect-place{
+    display: flex;
+    gap: 28px;
+    justify-content: center;
+    margin-top: 113px;
+    margin-bottom: 100px;
+}
+/* travel */
+.travel-form{
+    border-radius: 16px;
+border: 1px solid #FF5400;
+padding: 40px;
+}
+.travel-form hr{
+    background: rgba(19, 19, 24, 0.10);
+}
+.travel-form form{
+    display: grid;
+    gap: 16px;
+    justify-content: left;
+    margin: 24px 0;
+}
+.travel-form input{
+    border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+border: 0;
+padding: 16px 230px 16px 20px;
+}
+.sub-btn{
+    border-radius: 8px;
+background: #FF5400;
 color: #FFF;
 font-size: 1.25rem;
 font-weight: 800;
-padding: 14px 35px;
+padding: 14px 147px;
+border: 0;
+}
+.travel-img{
+    background-image: url('Images/Rectangle\ 8\ \(1\).png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 345px 0 0 345px;
+    border-radius: 16px;
+}
+.travel-img-title{
+    border-radius: 16px;
+background: #FF5400;
+padding: 20px 40px;
+transform-origin: bottom left;
+transform: rotate(-15deg);
+text-align: center;
+}
+.travel-img-title a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.5rem;
+}
+.travel-img-title h3{
+    color: #FFF;
+font-size: 2rem;
+font-weight: 800;
+margin-top: 0;
+margin-bottom: 0;
+}
+.travel{
+    display: flex;
+   justify-content: center;
+    gap: 24px;
+    margin-bottom: 100px;
+}
+.footer{
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 100px;
+    text-align: center;
+    padding: 110px 284px;
+}
+.footer-title{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+.footer-name{
+font-size: 2rem;
+font-weight: 800;
+margin: 0;
+}
+.logo{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 32px;
+}
+.hr{
+    background: rgba(19, 19, 24, 0.10);
+    margin: 50px 0;
 }
 @media screen and (max-width: 576px) {
     header {
@@ -154,7 +542,7 @@ padding: 14px 35px;
         margin: 0 15px 20px 15px;
     }
 
-    form {
+    .banner form {
         flex-direction: column;
         gap: 16px;
         margin-left: 24px;
@@ -168,4 +556,61 @@ padding: 14px 35px;
     input {
         width: 255px;
     }
-}
+    main {
+       margin: 0 20px;
+    }
+    .first-part{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .first-part-img img{
+        width: 100%;
+    }
+    .destination{
+        margin-bottom: 20px;
+    }
+    .mal-indo,.sri-nor-kash,.bang-band,.hotel-service,.travel{
+        flex-direction: column;
+    }
+    .srilanka,.north,.kashmir,.bangladesh,.bandarban,.perfect-place-img{
+        width: 100%;
+    }
+    .hotel,.service,.guarantee{
+        max-width: 100%;
+    }
+    .travel-form,.discount-img,.discount-img-details,.discount-img-1,.discount-img-details-1{
+        padding: 20px;
+    }
+    .discount-img,.discount-img-1{
+        padding-top: 75%;
+    }
+    .discount-img-duration{
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    .discount-title{
+        margin: 0;
+    }
+    .price{
+        margin: 0;
+    }
+    .perfect-place{
+        margin: 50px 0;
+        flex-direction: column;
+    }
+    .travel-form input{
+       padding-right: 50px;
+    }
+    .sub-btn{
+        padding: 14px 70px;
+    }
+    .travel-img{
+        padding: 200px 0 0 100px;
+    }
+    .travel-img-title{
+        padding: 5px;
+    }
+    .footer{
+       padding: 20px;
+    }
+} 
