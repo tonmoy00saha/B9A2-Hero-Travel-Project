@@ -521,6 +521,7 @@ margin: 0;
 @media screen and (max-width: 576px) {
     header {
         margin: 20px auto;
+        padding: 0 10px;
     }
 
     .navigation {
@@ -599,10 +600,10 @@ margin: 0;
         flex-direction: column;
     }
     .travel-form input{
-       padding-right: 50px;
+       padding-right: 15px;
     }
     .sub-btn{
-        padding: 14px 70px;
+        padding: 14px;
     }
     .travel-img{
         padding: 200px 0 0 100px;
